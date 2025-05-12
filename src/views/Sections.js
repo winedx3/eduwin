@@ -107,6 +107,7 @@ function Sections() {
               <span className="cd-label">Features</span>
             </a>
           </li>
+          {/* TODO enable at some point
           <li>
             <a
               data-number="3"
@@ -124,9 +125,10 @@ function Sections() {
               <span className="cd-label">Blogs</span>
             </a>
           </li>
+          */}
           <li>
             <a
-              data-number="4"
+              data-number="3"
               href="#teams"
               onClick={(e) => {
                 e.preventDefault();
@@ -143,7 +145,7 @@ function Sections() {
           </li>
           <li>
             <a
-              data-number="5"
+              data-number="4"
               href="#pricing"
               onClick={(e) => {
                 e.preventDefault();
@@ -160,7 +162,7 @@ function Sections() {
           </li>
           <li>
             <a
-              data-number="6"
+              data-number="5"
               href="#testimonials"
               onClick={(e) => {
                 e.preventDefault();
@@ -177,7 +179,7 @@ function Sections() {
           </li>
           <li>
             <a
-              data-number="7"
+              data-number="6"
               href="#contact-us"
               onClick={(e) => {
                 e.preventDefault();
