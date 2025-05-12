@@ -2,7 +2,7 @@ import React from "react";
 // reactstrap components
 
 // core components
-import WhiteNavbar from "components/Navbars/WhiteNavbar.js";
+import Navbar from "../components/Navbars/Navbar";
 import FooterBlack from "components/Footers/FooterBlack.js";
 // sections for this page
 import SectionHeader from "./sections-sections/SectionHeader.js";
@@ -67,13 +67,10 @@ function Sections() {
   });
   return (
     <>
-      <WhiteNavbar />
-      <div className="section-space" />
       <SectionHeader />
       <SectionFeature />
       <SectionBlog />
       <SectionTeam />
-      <SectionProject />
       <SectionPricing />
       <SectionTestimonials />
       <SectionContactUs />
@@ -93,7 +90,7 @@ function Sections() {
               }}
             >
               <span className="cd-dot" />
-              <span className="cd-label">Headers</span>
+              <span className="cd-label">About</span>
             </a>
           </li>
           <li>
@@ -144,29 +141,12 @@ function Sections() {
               }}
             >
               <span className="cd-dot" />
-              <span className="cd-label">Teams</span>
+              <span className="cd-label">Your Tutor</span>
             </a>
           </li>
           <li>
             <a
               data-number="5"
-              href="#projects"
-              onClick={(e) => {
-                e.preventDefault();
-                document.getElementById("projects").scrollIntoView({
-                  behavior: "smooth",
-                  block: "start",
-                  inline: "nearest",
-                });
-              }}
-            >
-              <span className="cd-dot" />
-              <span className="cd-label">Projects</span>
-            </a>
-          </li>
-          <li>
-            <a
-              data-number="6"
               href="#pricing"
               onClick={(e) => {
                 e.preventDefault();
@@ -183,7 +163,7 @@ function Sections() {
           </li>
           <li>
             <a
-              data-number="7"
+              data-number="6"
               href="#testimonials"
               onClick={(e) => {
                 e.preventDefault();
@@ -200,7 +180,7 @@ function Sections() {
           </li>
           <li>
             <a
-              data-number="8"
+              data-number="7"
               href="#contact-us"
               onClick={(e) => {
                 e.preventDefault();

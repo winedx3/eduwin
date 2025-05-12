@@ -11102,7 +11102,7 @@ body {
   text-align: center;
 }
 .section {
-  padding: 70px 0;
+  padding: 0;
   position: relative;
   background-color: #fff;
 }
@@ -11216,7 +11216,7 @@ body {
   color: #fff;
 }
 .section {
-  padding: 70px 0;
+  padding: 0;
   position: relative;
   background-color: #ffffff;
 }

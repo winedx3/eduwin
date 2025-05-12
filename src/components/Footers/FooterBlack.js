@@ -16,28 +16,11 @@ function FooterBlack() {
               <ul>
                 <li>
                   <a
-                    href="https://www.creative-tim.com?ref=pkpr-black-footer"
-                    target="_blank"
-                    className="mr-1"
-                  >
-                    Creative Tim
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="http://blog.creative-tim.com/?ref=pkpr-black-footer"
+                    href="https://edwinweilun.wordpress.com/"
                     target="_blank"
                     className="mr-1"
                   >
                     Blog
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.creative-tim.com/license?ref=pkpr-black-footer"
-                    target="_blank"
-                  >
-                    Licenses
                   </a>
                 </li>
               </ul>
@@ -45,7 +28,7 @@ function FooterBlack() {
             <div className="credits ml-auto">
               <span className="copyright">
                 © {new Date().getFullYear()}
-                , made with <i className="fa fa-heart heart" /> by Creative Tim
+                , EduWin
               </span>
             </div>
           </Row>

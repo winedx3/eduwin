@@ -1,20 +1,3 @@
-/*!
-
-=========================================================
-* Paper Kit PRO React - v1.3.1
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/paper-kit-pro-react
-* Copyright 2023 Creative Tim (http://www.creative-tim.com)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
-
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Route, Navigate, Routes } from "react-router-dom";
@@ -54,10 +37,11 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
     <Routes>
-      <Route path="/eduwin" element={<LandingPage />} />
+      <Route path="/eduwin/*" element={<Sections />} />
+      <Route path="/sections/*" element={<Sections />} />
+      <Route path="/landing-page" element={<LandingPage />} />
       <Route path="/index" element={<Index />} />
       <Route path="/nucleo-icons" element={<NucleoIcons />} />
-      <Route path="/sections/*" element={<Sections />} />
       <Route path="/presentation" element={<Presentation />} />
       <Route path="/about-us" element={<AboutUs />} />
       <Route path="/add-product" element={<AddProduct />} />
