@@ -66,12 +66,9 @@ function MultiDropdownNavbar() {
       >
         <Container>
           <div className="navbar-translate">
-            <NavbarBrand id="navbar-brand" to="/index" tag={Link}>
-              Paper Kit PRO React
+            <NavbarBrand id="navbar-brand" to="/eduwin" tag={Link}>
+              EduWin
             </NavbarBrand>
-            <UncontrolledTooltip placement="bottom" target="navbar-brand">
-              Paper Kit PRO React
-            </UncontrolledTooltip>
             <button
               className="navbar-toggler"
               id="navigation"

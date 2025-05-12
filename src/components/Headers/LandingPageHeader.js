@@ -1,4 +1,5 @@
 import React from "react";
+import BannerImage from "../../assets/img/sections/tutor-header.jpg";
 
 // reactstrap components
 import { Button, Container } from "reactstrap";
@@ -29,34 +30,31 @@ function LandingPageHeader() {
         ref={pageHeader}
         style={{
           backgroundImage:
-            "url(" + require("assets/img/sections/david-marcu.jpg") + ")",
+            "url(" + BannerImage + ")",
         }}
       >
         <div className="filter" />
         <div className="content-center">
           <Container>
             <div className="motto">
-              <h1 className="title">Landing page</h1>
+              <h1 className="title">EduWin</h1>
               <h3 className="description">
-                Start designing your landing page here.
+                Learn Better, Achieve More, EduWin Together!
               </h3>
               <br />
               <Button
-                className="btn-round mr-1"
-                color="neutral"
-                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ?ref=creativetim"
-                target="_blank"
+                className="btn-round btn-neutral btn-lg mr-1"
+                role="menuitem"
+                href="/eduwin#services"
               >
-                <i className="fa fa-play" />
-                Watch video
+                <i className="fa fa-graduation-cap" /> Tutoring Services
               </Button>
               <Button
-                className="btn-round"
-                color="neutral"
-                type="button"
-                outline
+                className="btn-round btn btn-danger btn-lg"
+                role="menuitem"
+                href="/eduwin#contact"
               >
-                Download
+                Sign Up Now
               </Button>
             </div>
           </Container>

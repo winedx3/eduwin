@@ -1,4 +1,5 @@
 import React from "react";
+import edwinComic from "../../assets/img/faces/edwin-comic.png";
 
 // reactstrap components
 import {
@@ -15,9 +16,9 @@ import {
 } from "reactstrap";
 
 // core components
-import MultiDropdownNavbar from "components/Navbars/MultiDropdownNavbar.js";
 import LandingPageHeader from "components/Headers/LandingPageHeader.js";
 import FooterWhite from "components/Footers/FooterWhite.js";
+import Navbar from "../../components/Navbars/Navbar";
 
 function LandingPage() {
   document.documentElement.classList.remove("nav-open");
@@ -31,14 +32,14 @@ function LandingPage() {
   });
   return (
     <>
-      <MultiDropdownNavbar />
+      <Navbar />
       <LandingPageHeader />
       <div className="wrapper">
-        <div className="section text-center landing-section">
+        <div id="services" className="section text-center landing-section">
           <Container>
             <Row>
               <Col className="ml-auto mr-auto" md="8">
-                <h2 className="title">Let's talk product</h2>
+                <h2 className="title">Subjects Offered</h2>
                 <h5>
                   This is the paragraph where you can write more details about
                   your product. Keep you user engaged by providing meaningful
@@ -151,63 +152,69 @@ function LandingPage() {
             </Row>
           </Container>
         </div>
-        <div className="section section-dark text-center landing-section">
+        <div id="profile" className="section section-dark text-center landing-section">
           <Container>
-            <h2 className="title">Let's talk about us</h2>
+            <h2 className="title">The Team</h2>
             <Row>
+              <Col md="4"/>
               <Col md="4">
                 <Card className="card-profile card-plain">
                   <div className="card-avatar">
                     <a href="#pablo" onClick={(e) => e.preventDefault()}>
                       <img
                         alt="..."
-                        src={require("assets/img/faces/clem-onojeghuo-3.jpg")}
+                        src={edwinComic}
                       />
                     </a>
                   </div>
                   <CardBody>
                     <a href="#pablo" onClick={(e) => e.preventDefault()}>
                       <div className="author">
-                        <CardTitle tag="h4">Henry Ford</CardTitle>
+                        <CardTitle tag="h4">Edwin Pang Weilun</CardTitle>
                         <h6 className="card-category text-muted">
-                          Product Manager
+                          Your Tutor
                         </h6>
                       </div>
                     </a>
                     <p className="card-description text-center">
-                      Teamwork is so important that it is virtually impossible
-                      for you to reach the heights of your capabilities or make
-                      the money that you want without becoming very good at it.
+                      Experienced tutor with 10+ years helping primary and
+                      secondary students excel in Maths and Science. Patient,
+                      reliable, and results-focused.
                     </p>
                   </CardBody>
                   <CardFooter className="text-center">
                     <Button
                       className="btn-link btn-just-icon mr-1"
-                      color="twitter"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
+                      color="facebook"
+                      href="https://www.facebook.com/profile.php?id=61570094852962"
+                      target="_blank"
+                      rel="noopener noreferrer"
                     >
-                      <i className="fa fa-twitter" />
+                      <i className="fa fa-facebook" />
                     </Button>
                     <Button
                       className="btn-link btn-just-icon mr-1"
-                      color="dribbble"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
+                      color="instagram"
+                      href="https://www.instagram.com/epwl_/"
+                      target="_blank"
+                      rel="noopener noreferrer"
                     >
-                      <i className="fa fa-dribbble" />
+                      <i className="fa fa-instagram" />
                     </Button>
                     <Button
                       className="btn-link btn-just-icon"
                       color="linkedin"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
+                      href="https://www.linkedin.com/in/edwinweilun/"
+                      target="_blank"
+                      rel="noopener noreferrer"
                     >
                       <i className="fa fa-linkedin" />
                     </Button>
                   </CardFooter>
                 </Card>
               </Col>
+              <Col md="4"/>
+              {/*
               <Col md="4">
                 <Card className="card-profile card-plain">
                   <div className="card-avatar">
@@ -312,10 +319,11 @@ function LandingPage() {
                   </CardFooter>
                 </Card>
               </Col>
+              */}
             </Row>
           </Container>
         </div>
-        <div className="section landing-section">
+        <div id="contact" className="section landing-section">
           <Container>
             <Row>
               <Col className="ml-auto mr-auto" md="8">

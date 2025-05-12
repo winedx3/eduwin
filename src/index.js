@@ -54,6 +54,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
     <Routes>
+      <Route path="/eduwin" element={<LandingPage />} />
       <Route path="/index" element={<Index />} />
       <Route path="/nucleo-icons" element={<NucleoIcons />} />
       <Route path="/sections/*" element={<Sections />} />
@@ -68,7 +69,6 @@ root.render(
       <Route path="/error-404" element={<Error404 />} />
       <Route path="/error-422" element={<Error422 />} />
       <Route path="/error-500" element={<Error500 />} />
-      <Route path="/landing-page" element={<LandingPage />} />
       <Route path="/login-page" element={<LoginPage />} />
       <Route path="/product-page" element={<ProductPage />} />
       <Route path="/profile-page" element={<ProfilePage />} />
@@ -76,7 +76,7 @@ root.render(
       <Route path="/search-with-sidebar" element={<SearchWithSidebar />} />
       <Route path="/settings" element={<Settings />} />
       <Route path="/twitter-redesign" element={<TwitterRedesign />} />
-      <Route path="*" element={<Navigate to="/landing-page" replace />} />
+      <Route path="*" element={<Navigate to="/eduwin" replace />} />
     </Routes>
   </BrowserRouter>
 );
