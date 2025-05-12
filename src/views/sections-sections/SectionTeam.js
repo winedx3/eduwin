@@ -1,5 +1,5 @@
 import React from "react";
-import edwinComic from "../../assets/img/faces/edwin-comic.png";
+import edwinPro from "../../assets/img/faces/edwin-professional.jpg";
 
 // reactstrap components
 import {
@@ -47,8 +47,8 @@ function SectionTeam() {
                     <div className="card-avatar">
                       <a href="#pablo" onClick={(e) => e.preventDefault()}>
                         <img
-                          alt="..."
-                          src={edwinComic}
+                          alt="Edwin Pang"
+                          src={edwinPro}
                         />
                       </a>
                     </div>
