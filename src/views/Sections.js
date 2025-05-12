@@ -2,14 +2,12 @@ import React from "react";
 // reactstrap components
 
 // core components
-import Navbar from "../components/Navbars/Navbar";
 import FooterBlack from "components/Footers/FooterBlack.js";
 // sections for this page
 import SectionHeader from "./sections-sections/SectionHeader.js";
 import SectionFeature from "./sections-sections/SectionFeature.js";
 import SectionBlog from "./sections-sections/SectionBlog.js";
 import SectionTeam from "./sections-sections/SectionTeam.js";
-import SectionProject from "./sections-sections/SectionProject.js";
 import SectionPricing from "./sections-sections/SectionPricing.js";
 import SectionTestimonials from "./sections-sections/SectionTestimonials.js";
 import SectionContactUs from "./sections-sections/SectionContactUs.js";
