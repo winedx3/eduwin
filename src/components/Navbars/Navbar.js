@@ -15,7 +15,6 @@ import {
   NavItem,
   Nav,
   Container,
-  UncontrolledTooltip,
 } from "reactstrap";
 // core components
 
