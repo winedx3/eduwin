@@ -6,7 +6,6 @@ import FooterBlack from "components/Footers/FooterBlack.js";
 // sections for this page
 import SectionHeader from "./sections-sections/SectionHeader.js";
 import SectionFeature from "./sections-sections/SectionFeature.js";
-import SectionBlog from "./sections-sections/SectionBlog.js";
 import SectionTeam from "./sections-sections/SectionTeam.js";
 import SectionPricing from "./sections-sections/SectionPricing.js";
 import SectionTestimonials from "./sections-sections/SectionTestimonials.js";
@@ -67,7 +66,7 @@ function Sections() {
     <>
       <SectionHeader />
       <SectionFeature />
-      <SectionBlog />
+      {/*<SectionBlog /> TODO enable at some point*/}
       <SectionTeam />
       <SectionPricing />
       <SectionTestimonials />
