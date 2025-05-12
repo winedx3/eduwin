@@ -104,7 +104,7 @@ function Sections() {
               }}
             >
               <span className="cd-dot" />
-              <span className="cd-label">Features</span>
+              <span className="cd-label">Subjects</span>
             </a>
           </li>
           {/* TODO enable at some point
