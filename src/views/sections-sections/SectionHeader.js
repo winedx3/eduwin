@@ -68,7 +68,7 @@ function SectionHeader() {
                         <Button
                           className="btn-round btn-neutral btn-lg mr-1"
                           role="menuitem"
-                          href="/eduwin#feature"
+                          href="/eduwin#features"
                         >
                           <i className="fa fa-graduation-cap" /> Tutoring Services
                         </Button>
