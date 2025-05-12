@@ -21,7 +21,8 @@ function SectionBlog() {
           <Container>
             <Row>
               <Col className="ml-auto mr-auto" md="10">
-                <h2 className="title">Latest Blogposts (TODO fetch from edwinweilun.wordpress.com)</h2>
+                <h2 className="title">Latest Blogposts</h2>
+                {/*TODO fetch from edwinweilun.wordpress.com*/}
                 <br />
                 <Card className="card-plain card-blog">
                   <Row>
